@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+// const db = require('./models/index');
 
 const app = express();
 const port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
